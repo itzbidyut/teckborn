@@ -28,6 +28,10 @@ a:hover {
   display: flex;
   gap: 50px;
 }
+.mobileArrow,
+.navLinkMobile {
+  display: none;
+}
 .navLinks a {
   height: 30px;
   font-size: 20px;
@@ -114,7 +118,7 @@ a:hover {
   width: 50px !important;
 }
 .textimonialLeft .title {
-  margin-top: 100px;
+  margin-top: 20px;
   font-size: 40px;
   font-weight: 600;
   color: #050a24;
@@ -716,5 +720,61 @@ a:hover {
   }
   .navLinks {
     display: none;
+  }
+  .mobileArrow {
+    display: block;
+    padding: 10px;
+  }
+  .navLinkMobile {
+    padding-top: 100px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10000;
+    padding: 10px;
+    background-color: white;
+  }
+  .navLinkMobile div {
+    padding: 15px;
+    border-bottom: 1px solid gray;
+  }
+  .navLinkMobile .insideLinks {
+    display: block;
+    position: relative;
+    padding: 0px;
+  }
+  .Payment {
+    margin-top: 80px;
+  }
+  .navLinkMobile .close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 10px;
+    background-color: white;
+    z-index: 100001;
+    border: 1px solid gray;
+  }
+  .insideLinks li {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding: 0px;
+  }
+  .insideLinks a {
+    padding: 15px;
+  }
+  .more .insideLinks {
+    width: 100%;
+    border: none !important;
+    box-shadow: none;
+  }
+  .Payment,
+  .more {
+    border: none;
   }
 }
