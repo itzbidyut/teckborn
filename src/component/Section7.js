@@ -79,7 +79,7 @@ export default function Section7() {
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={3}>
             {list.map((item) => (
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} lg={4}>
                 <div className="box">
                   <Box sx={{ flexGrow: 1 }}>
                     <Grid container spacing={3}>
