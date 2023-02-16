@@ -10,6 +10,8 @@ export default function Navbar() {
     console.log("open");
     setDrawer(true);
   };
+
+  // asdc
   const CloseModal = () => {
     console.log("open");
     setDrawer(false);
@@ -73,7 +75,7 @@ export default function Navbar() {
           <div className="Payment">
             <a href="/">
               Reaharge& Bill Payment <KeyboardArrowDownSharpIcon />
-            </a> 
+            </a>
             <div className="insideLinks">
               <ul>
                 <li>
